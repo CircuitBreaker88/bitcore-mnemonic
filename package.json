@@ -1,5 +1,5 @@
 {
-  "name": "bitcore-mnemonic-innova",
+  "name": "bitcore-mnemonic",
   "version": "1.2.2",
   "description": "BIP39 Mnemonics implemented for Bitcore.",
   "author": "BitPay <dev@bitpay.com>",
@@ -14,14 +14,18 @@
     {
       "name": "Yemel Jardi",
       "email": "angel.jardi@gmail.com"
+    },
+    {
+      "name": "CircuitBreaker",
+      "email": "circuitbreaker88@protonmail.com"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/innovacoin/bitcore-mnemonic-innova.git"
+    "url": "https://github.com/MoneyByte/bitcore-mnemonic.git"
   },
   "keywords": [
-    "innova",
+    "moneybyte",
     "bitcore",
     "mnemonic",
     "crypto",
@@ -31,14 +35,14 @@
   "license": "MIT",
   "devDependencies": {
     "assert": "^1.1.2",
-    "bitcore-build-innova": "innovacoin/bitcore-build-innova",
+    "bitcore-build": "MoneyByte/bitcore-build",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
     "mocha": "^2.2.5"
   },
   "dependencies": {
-    "bitcore-lib-innova": "innovacoin/bitcore-lib-innova",
+    "bitcore-lib": "MoneyByte/bitcore-lib",
     "unorm": "^1.3.3"
   }
 }
